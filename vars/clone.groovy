@@ -1,3 +1,3 @@
-def clone(String repo = 'https://github.com/opstree/spring3hibernate.git') {
-   git clone $repo
+def clone(repo = 'https://github.com/opstree/spring3hibernate.git') {
+    "git clone $repo".execute()
 }
